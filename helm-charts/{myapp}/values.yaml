@@ -1,0 +1,11 @@
+replicaCount: 3
+
+image:
+  repository: myapp
+  tag: latest
+
+service:
+  type: ClusterIP
+  port: 80
+
+resources: {}
